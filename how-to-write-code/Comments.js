@@ -2,7 +2,12 @@
 
    // console.log("This does not print.");
 
-   console.log("Hello, World!"); // Comments do not have to start at the beginning of a line.
+   // trying comments
+
+   /* multiline comments
+   this is 2 lines! */
+
+   console.log("Hello!  New Comments Included!"); // Comments do not have to start at the beginning of a line.
 
    /* Here is how
    to have
