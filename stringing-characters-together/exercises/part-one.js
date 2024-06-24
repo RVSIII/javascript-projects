@@ -1,5 +1,7 @@
 let num = 1001;
 
+String(num)
+console.log(typeof num);
 //Returns 'undefined'.
 console.log(num.length);
 
