@@ -1,7 +1,57 @@
 //We want to COMPLETELY reverse an array by flipping the order of the entries AND flipping the order of characters in each element.
-
+//{    if (typeof myVariableName = "string");
 // Part One: Reverse Characters
+function reverseCharacters(str) {
+    return str.split('').reverse().join('');
+}
+let variableName = 12345
 
+if (typeof variableName === "string") {
+   
+console.log(reverseCharacters(variableName));
+}
+
+else if (typeof variableName === "number") {
+    console.log(variableName)
+}
+else {
+return Number(String(stringToRev).split('').reverse().join(''));
+}/*
+//let variableName = "Rob Siemer"
+//console.log(reverseCharacters(myName));
+
+/*
+let myVariableName = 71809;
+
+if (typeof myVariableName === "string") {
+console.log(reverseCharacters(myVariableName));
+}
+
+else if (typeof myVariableName === "number") {
+  console.log(String(myVariableName));
+  console.log(typeof myVariableName);
+//console.log(reverseCharacters(myVariableName));
+}
+*/
+/*
+if (typeof myVariableName === string) {
+    console.log(reverseCharacters(myVariableName))
+}*/
+/*
+let myVariableName = "apple";
+if (typeof myVariableName = "string")
+console.log(reverseCharacters(myVariableName));
+
+console.log(typeof "Hello")
+
+
+let myVariableName = "Rob";
+
+console.log(typeof myVariableName);
+
+if (typeof myVariableName === string) {
+    console.log(rever)
+} */
 // 1. Define the function as reverseCharacters. Give it one parameter, which will be the string to reverse.
 // 2. Within the function, split the string into an array, then reverse the array.
 // 3. Use join to create the reversed string and return that string from the function.
@@ -16,8 +66,20 @@
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.
-
+function reverseCharacters(stringToRev) {
+    
+    let tempArray = [];
+    for 
+}
 // Part Three: Complete Reversal - Create a new function with one parameter, which is the array we want to change. The function should:
+
+function completeReversal(arrayToRev) {
+    let tempArray = [];
+    for (i=0; i<arrayToRev.length; i++) {
+        tempArray.unshift(reverseCharacters(arrayToRev[i]))
+    }
+    return tempArray;
+}
 
 // 1. Define and initialize an empty array.
 // 2. Loop through the old array.
