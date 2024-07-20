@@ -5,8 +5,27 @@ function findMinValue(arr){
       min = arr[i];
     }
   }
-  return min;
+ return min;
 }
+
+let nums1 = [5, 10, 2, 42];
+let nums2 = [-2, 0, -10, -44, 5, 3, 0, 3];
+let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
+
+
+function sortArray(arr) {
+  let sorted = [];
+  while (arr.length) {
+    let min = findMinValue(arr)
+    sorted.push(min);
+    arr.splice(arr.indexOf(min), 1)
+  }
+  return sorted;
+}
+
+console.log(sortArray(nums1));
+
+
 
 //Create a function with an array of numbers as its parameter. This function will return a new array with the numbers sorted from least to greatest value.
 
@@ -24,6 +43,4 @@ function findMinValue(arr){
  */
 
 //Sample arrays for testing:
-let nums1 = [5, 10, 2, 42];
-let nums2 = [-2, 0, -10, -44, 5, 3, 0, 3];
-let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
+

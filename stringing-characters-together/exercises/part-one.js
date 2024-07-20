@@ -1,9 +1,12 @@
-let num = 1001;
+//let num = 1001;
+let nameOfVariable = 1001
 
-String(num)
-console.log(typeof num);
+console.log(typeof String(nameOfVariable))
+
+console.log(typeof nameOfVariable)
+//console.log(typeof num);
 //Returns 'undefined'.
-console.log(num.length);
+//console.log(num.length);
 
 //Use type conversion to print the length (number of digits) of an integer.
 
