@@ -4,7 +4,7 @@
 function reverseCharacters(str) {
     return str.split('').reverse().join('');
 }
-let variableName = 12345
+let variableName = ''
 
 if (typeof variableName === "string") {
    
@@ -66,11 +66,12 @@ if (typeof myVariableName === string) {
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.
-function reverseCharacters(stringToRev) {
+/*function reverseCharacters(stringToRev) {
     
     let tempArray = [];
     for 
 }
+    */
 // Part Three: Complete Reversal - Create a new function with one parameter, which is the array we want to change. The function should:
 
 function completeReversal(arrayToRev) {
